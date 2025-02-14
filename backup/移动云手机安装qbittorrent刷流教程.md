@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>xmzd</title><link>https://xiumuzidiao0.github.io</link><description>xmzd的博客</description><copyright>xmzd</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/107784127?v=4</url><title>avatar</title><link>https://xiumuzidiao0.github.io</link></image><lastBuildDate>Fri, 14 Feb 2025 11:59:12 +0000</lastBuildDate><managingEditor>xmzd</managingEditor><ttl>60</ttl><webMaster>xmzd</webMaster><item><title>移动云手机安装qbittorrent刷流教程</title><link>https://xiumuzidiao0.github.io/post/yi-dong-yun-shou-ji-an-zhuang-qbittorrent-shua-liu-jiao-cheng.html</link><description># 前言
+# 前言
 本教程只适用移动云手机，其它请自测
 移动云手机每周可以免费使用一天，有普通版和极致版，也就是说一个号码一周可以白嫖两天，理论上四个号码就可以实现永久白嫖，而且因为他是可以恢复数据的，所以理论上只用操作一次，后面只需恢复数据即可
 有很多地区，比如北京、四川有移动的优惠，可以白嫖一段时间甚至永久，其他部分地区也有10块钱一个月的套餐，自行谷歌，直接购买36元一月没有什么性价比
@@ -17,7 +16,7 @@
 以下命令执行过程中，如有需要输入的地方全部输入y即可
 1.执行以下命令更新termux环境
 ```
-pkg update -y &amp;&amp; pkg upgrade -y
+pkg update -y && pkg upgrade -y
 ```
 2.安装proot-distro
 ```
@@ -41,7 +40,7 @@ proot-distro login debian
 ```
 7.更新debian环境
 ```
-apt update -y &amp;&amp; apt upgrade -y
+apt update -y && apt upgrade -y
 ```
 8.安装qbittorrent-nox
 ```
@@ -68,15 +67,15 @@ qbittorrent-nox
 并自行修改用户名、密码
 # frpc配置
 ```
-serverAddr = '2.2.2.2' #frps服务端公网IP
+serverAddr = "2.2.2.2" #frps服务端公网IP
 serverPort = 5443 #frps服务端公网端口
 
-auth.method = 'token'
-auth.token = 'a123456789' #frps的token
+auth.method = "token"
+auth.token = "a123456789" #frps的token
 
 [[proxies]]
-name = 'ydqb' 
-type = 'tcp'
+name = "ydqb" 
+type = "tcp"
 localPort = 8181
 remotePort = 18181
 ```
@@ -89,4 +88,3 @@ frps以及后续的刷流工具的安装请自行谷歌
 ## 数据恢复和termux意外退出
 数据恢复后会掉面具(magisk)需要重新再修补一遍，重启过后，只需要打开termux并执行第4、6、10步即可
 
-。</description><guid isPermaLink="true">https://xiumuzidiao0.github.io/post/yi-dong-yun-shou-ji-an-zhuang-qbittorrent-shua-liu-jiao-cheng.html</guid><pubDate>Fri, 14 Feb 2025 11:52:57 +0000</pubDate></item></channel></rss>
