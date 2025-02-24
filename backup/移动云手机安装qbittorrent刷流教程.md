@@ -95,7 +95,7 @@ frps以及后续的刷流工具的安装请自行谷歌
 # 可能出现的问题
 termux的仓库可能拉不下来(特别是debian镜像)可以给termux单独开代理，切忌开全局代理，会直接导致云手机断连，如有不小心开了可尝试重启云手机恢复。
 clash meta请自行到github下载（网盘里的被屏蔽了）链接https://github.com/MetaCubeX/ClashMetaForAndroid/releases/tag/v2.11.6
-# 抛砖引玉——另一个更方便的方法(仅限magisk可用)有我解决不了的问题，请大佬们有兴趣的研究一下，并不吝赐教，下面是一些我的经验。
+# 抛砖引玉——另一个更方便的方法(仅限magisk可用)有我解决不了的问题，请大佬们有兴趣的研究一下，并不吝赐教，下面是一些我的经验。（模块是酷安大佬搞的）
 目前可以在安装模块并重启后直接在浏览器里面打开webui,但是添加种子有问题，不论是bt还是pt种子都显示Host not found(non-authoritative),try again later
 大家可以打开压缩包里的bin目录并到https://github.com/userdocs/qbittorrent-nox-static/releases里面去下载对应手机架构(一般是aarch64)的不同版本的文件替换一下就可以实现版本切换，但是要注意新的几个qbittorrent版本都是没有默认密码的需要自己去修改一，如没有修改，那默认用户名密码就是admin和adminadmin
 在qBittorrent/config目录里面的qBittorrent.conf文件在[Preferences]下添加一条WebUI\Password_PBKDF2="@ByteArray(ruz0RpHqKptKv44/ZacGKA==:v6n/OXeMd5qASDJL8uEJsJVKk3LSrFXroxusykX929FQ24/rYIRWeWNfXrsJcBCvXsFmyNGSLF0GMj/bEDb2Fg==)"即使默认密码为adminadmin再重启手机即可
