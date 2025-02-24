@@ -4,7 +4,7 @@
 有很多地区，比如北京、四川有移动的优惠，可以白嫖一段时间甚至永久，其他部分地区也有10块钱一个月的套餐，自行谷歌，直接购买36元一月没有什么性价比
 由于其底层的限制，部分操作需要root权限，直接使用其定制版的面具修补后重启即可
 **下载安装完termux后，到设置里手动给他存储空间权限(必须)** 和通知权限(非必须)
-所需资料https://www.123684.com/s/CC39-Ekj0h
+所需资料https://www.123684.com/s/CC39-FMj0h
 # 安装教程
 ## 面具修补教程
 安装并启动magisk，要下载我的网盘里的定制版的magisk，进入软件
@@ -66,6 +66,11 @@ qbittorrent-nox
 ![](https://vip.123pan.cn/1681970/yk6baz03t0n000d6xujp03kzmtxxov5aDIQ1DIr0Dcx2DIry.png)
 并自行修改用户名、密码
 # frpc配置
+## 免费的
+可使用免费的樱花frp 官网:https://www.natfrp.com/
+注册和实名认证这里不演示，很简单就是实名需要1元钱，且官网上面有更详细的教程，想要了解更多请去官网这里只做最基础的教程
+**详见视频教程**
+## 自建frp穿透
 ```
 serverAddr = "2.2.2.2" #frps服务端公网IP
 serverPort = 5443 #frps服务端公网端口
@@ -87,6 +92,9 @@ frps以及后续的刷流工具的安装请自行谷歌
 其它一样
 ## 数据恢复和termux意外退出
 数据恢复后会掉面具(magisk)需要重新再修补一遍，重启过后，只需要打开termux并执行第4、6、10步即可
+# 可能出现的问题
+termux的仓库可能拉不下来(特别是debian镜像)可以给termux单独开代理，切忌开全局代理，会直接导致云手机断连，如有不小心开了可尝试重启云手机恢复。
+clash meta请自行到github下载（网盘里的被屏蔽了）链接https://github.com/MetaCubeX/ClashMetaForAndroid/releases/tag/v2.11.6
 # 抛砖引玉——另一个更方便的方法(仅限magisk可用)有我解决不了的问题，请大佬们有兴趣的研究一下，并不吝赐教，下面是一些我的经验。
 目前可以在安装模块并重启后直接在浏览器里面打开webui,但是添加种子有问题，不论是bt还是pt种子都显示Host not found(non-authoritative),try again later
 大家可以打开压缩包里的bin目录并到https://github.com/userdocs/qbittorrent-nox-static/releases里面去下载对应手机架构(一般是aarch64)的不同版本的文件替换一下就可以实现版本切换，但是要注意新的几个qbittorrent版本都是没有默认密码的需要自己去修改一，如没有修改，那默认用户名密码就是admin和adminadmin
