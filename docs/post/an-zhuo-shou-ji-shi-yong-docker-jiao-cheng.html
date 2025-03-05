@@ -92,7 +92,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <h1>方法1:已经集成好了alpine的termux——Alpine Term app(已停止维护更新，版本较旧)</h1>
 <p>安装并打开app给与权限，等待系统启动，再根据提示输入用户名和密码(都是alpine)下面安装过程中需要输入的地方一律输入y即可<br>
 <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/c7452da403d5acada79183a6aede0d8bd4699bbdbebf7ff1486509ade718fcce/68747470733a2f2f7669702e31323370616e2e636e2f313638313937302f796d6a657735303374306e303030643777333279353364646372346232613065444951314449723044637832444972792e706e67"><img src="https://camo.githubusercontent.com/c7452da403d5acada79183a6aede0d8bd4699bbdbebf7ff1486509ade718fcce/68747470733a2f2f7669702e31323370616e2e636e2f313638313937302f796d6a657735303374306e303030643777333279353364646372346232613065444951314449723044637832444972792e706e67" alt="" data-canonical-src="https://vip.123pan.cn/1681970/ymjew503t0n000d7w32y53ddcr4b2a0eDIQ1DIr0Dcx2DIry.png" style="max-width: 100%;"></a><br>
-切换到root账户</p>
+切换到root账户,输入密码alpine</p>
 <pre class="notranslate"><code class="notranslate">sudo -s
 </code></pre>
 <p>更新软件包索引并升级已安装的软件包</p>
@@ -104,8 +104,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>启动docker</p>
 <pre class="notranslate"><code class="notranslate">service docker start
 </code></pre>
-<p>输入密码alpine<br>
-将docker添加到开机自启动</p>
+<p>将docker添加到开机自启动</p>
 <pre class="notranslate"><code class="notranslate">rc-update add docker
 </code></pre>
 <p>后台启动</p>
