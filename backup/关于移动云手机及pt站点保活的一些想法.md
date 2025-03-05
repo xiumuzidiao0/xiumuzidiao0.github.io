@@ -11,7 +11,7 @@ https://3262049148.lanzoub.com/b03h8kl04f
 打开https://cloud.139.com/#/cloudphone
 登陆账号再打开自动刷新插件并如图设置时间间隔按情况自己调整
 但**硬刷新**选项切记要勾选
-![](https://vip.123pan.cn/1681970/yk6baz03t0m000d7w33g66k9qplbkdxtDIQ1DIr0Dcx2DIry.png)
+<img src="https://vip.123pan.cn/1681970/yk6baz03t0m000d7w33g66k9qplbkdxtDIQ1DIr0Dcx2DIry.png">
 # 注意事项(重要)
 网页版cookie只有一个星期有效期，到期后要重新登录。(无解，还是太复杂懒得😅)
 # 其它玩法
