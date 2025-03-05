@@ -1,7 +1,7 @@
 # 前言
 本教程基于termux和alpine linux本质上就是一个基于qemu的Linux虚拟机，如果手里有闲置的安卓手机可以将其变为一台Linux服务器，无需root权限。国内镜像源不稳定，不推荐替换，请自行准备科学上网环境。
 [所需要的相关资料](https://www.123684.com/s/CC39-jNj0h)
-图片加载缓慢点[这里](https://vip.123pan.cn/1681970/yk6baz03t0n000d7w33gz97h524ibt7bDIQ1DIr0Dcx2DIry.jpg)获取图片版教程
+图片加载缓慢点[这里](https://vip.123pan.cn/1681970/yk6baz03t0l000d7w33fcbyvzh99l3eiDIQ1DIr0Dcx2DIry.jpg)获取图片版教程
 
 # 方法1:已经集成好了alpine的termux——Alpine Term app(已停止维护更新，版本较旧)
 安装并打开app给与权限，等待系统启动，再根据提示输入用户名和密码(都是alpine)下面安装过程中需要输入的地方一律输入y即可
