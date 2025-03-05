@@ -6,6 +6,10 @@
 # 方法1:已经集成好了alpine的termux——Alpine Term app(已停止维护更新，版本较旧)
 安装并打开app给与权限，等待系统启动，再根据提示输入用户名和密码(都是alpine)下面安装过程中需要输入的地方一律输入y即可
 ![](https://vip.123pan.cn/1681970/ymjew503t0n000d7w32y53ddcr4b2a0eDIQ1DIr0Dcx2DIry.png)
+切换到root账户
+```
+sudo -s
+```
 更新软件包索引并升级已安装的软件包
 ```
 apk update && apk upgrade
@@ -17,10 +21,6 @@ apk add docker
 启动docker
 ```
 service docker start
-```
-切换到root账户
-```
-sudo -s
 ```
 输入密码alpine
 将docker添加到开机自启动
