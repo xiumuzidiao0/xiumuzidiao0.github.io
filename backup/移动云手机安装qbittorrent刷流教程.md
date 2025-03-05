@@ -8,10 +8,10 @@
 # 安装教程
 ## 面具修补教程
 安装并启动magisk，要下载我的网盘里的定制版的magisk，进入软件
-　　点击上面的那个安装按钮
-　　点击下一步
-　　点直接安装
-　　待安装完成，手动重启云手机(不是右下角的那个按钮，点了也没用)
+* 点击上面的那个安装按钮
+* 点击下一步
+* 点直接安装
+* 待安装完成，手动重启云手机(不是右下角的那个按钮，点了也没用)
 ## 进入termux安装qbittorrent-nox
 以下命令执行过程中，如有需要输入的地方全部输入y即可
 1.执行以下命令更新termux环境
@@ -63,7 +63,7 @@ qbittorrent-nox
 **启用跨站请求伪造(CSRF)保护**
 **启用host header属性验证**
 **否则无法外网访问**
-<img src="https://vip.123pan.cn/1681970/yk6baz03t0n000d6xujp03kzmtxxov5aDIQ1DIr0Dcx2DIry.png">
+![](https://vip.123pan.cn/1681970/yk6baz03t0n000d6xujp03kzmtxxov5aDIQ1DIr0Dcx2DIry.png)]
 并自行修改用户名、密码
 # frpc配置
 ## 免费的
