@@ -63,7 +63,7 @@ qbittorrent-nox
 **启用跨站请求伪造(CSRF)保护**
 **启用host header属性验证**
 **否则无法外网访问**
-![](https://vip.123pan.cn/1681970/yk6baz03t0n000d6xujp03kzmtxxov5aDIQ1DIr0Dcx2DIry.png)
+<img src="https://vip.123pan.cn/1681970/yk6baz03t0n000d6xujp03kzmtxxov5aDIQ1DIr0Dcx2DIry.png">
 并自行修改用户名、密码
 # frpc配置
 ## 免费的
