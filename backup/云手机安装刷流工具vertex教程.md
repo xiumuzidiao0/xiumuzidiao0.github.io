@@ -1,5 +1,6 @@
 # 前言
 本教程基于安卓手机使用docker教程请先看完，并做完[前置步骤。](https://blog.050802.xyz/post/an-zhuo-shou-ji-shi-yong-docker-jiao-cheng.html)
+[云手机代理教程](https://vip.123pan.cn/1681970/ymjew503t0l000d7w32x77t3xl96wk0uDIQ1DIr0Dcx2DIry.jpg)
 # 教程
 * vt刷流版启动脚本(加上了portainer和vt的端口映射加大了分配的内存)
 ```
