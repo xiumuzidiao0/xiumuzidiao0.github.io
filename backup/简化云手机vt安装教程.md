@@ -6,6 +6,7 @@
 精简了一些不相关的步骤，同时不再过多解释操作，如有兴趣自行去看完整的教程。
 # 方法1:已经集成好了alpine的termux——Alpine Term app(已停止维护更新，版本较旧)
 ##
+app下载点[这里](https://www.123684.com/s/CC39-jNj0h)
 安装并打开app授予权限，等待系统启动，再根据提示输入用户名和密码(都是alpine)下面安装过程中需要输入的地方一律输入y即可，一行一个回车
 ![](https://vip.123pan.cn/1681970/ymjew503t0n000d7w32y53ddcr4b2a0eDIQ1DIr0Dcx2DIry.png)
 ```
