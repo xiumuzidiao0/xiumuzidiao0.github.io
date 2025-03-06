@@ -60,9 +60,6 @@ hostfwd_add tcp::3005-:3005
 ```
 hostfwd_add tcp::1080-:1080
 ```
-```
-hostfwd_add tcp::8181-:8181
-```
 ## 配置vt
 * 获取vt登录密码
 在浏览器打开http://localhost:1080
@@ -80,14 +77,7 @@ hostfwd_add tcp::8181-:8181
 ## **注意事项**
 * 关于软件退出
 只需要等进入系统后重新执行一遍端口映射即可
-* 端口映射中的
-```
-hostfwd_add tcp::8181-:8181
-```
-是用来连接qb下载器的，如果你的qb下载器端口不是8181请自行修改为对应的端口
 ### **vt关联qb的ip填写(重要)**
-* **记得把端口映射出来，如果有访问外部服务的也需要映射**
-如这里需要访问外部的qb就映射了8181端口
 在termux输入ifconfig
 得到[如图](https://vip.123pan.cn/1681970/ymjew503t0m000d7w32xoua6xqow1rbwDIQ1DIr0Dcx2DIry.png)的回复，其中以10开头的ip地址就是在vt中填写的qb地址
 ![](https://vip.123pan.cn/1681970/ymjew503t0m000d7w32xoua6xqow1rbwDIQ1DIr0Dcx2DIry.png)
