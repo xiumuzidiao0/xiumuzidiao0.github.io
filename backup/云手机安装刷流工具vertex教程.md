@@ -40,8 +40,6 @@ docker run -d \
   filebrowser/filebrowser:latest
 ```
 ## vt关联qb的ip填写
-* **记得把端口映射出来，如果有访问外部服务的也需要映射**
-如这里需要访问外部的qb就映射了8181端口
 在termux输入ifconfig
 得到如图的回复，其中以10开头的ip地址(除127.0.0.1和0.0.0.0以外都可以试一试，如可能出现的172开头的IP)就是在vt中填写的qb地址
 ![](https://vip.123pan.cn/1681970/ymjew503t0m000d7w32xoua6xqow1rbwDIQ1DIr0Dcx2DIry.png)
