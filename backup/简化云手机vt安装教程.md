@@ -51,7 +51,7 @@ docker run -d \
   filebrowser/filebrowser:latest
 ```
 ## 映射端口
-手指在软件的左上方向右滑，会出现菜单
+手指在软件的左上方向右滑，会出现菜单，选择第一个qemu会话
 如下所示：
 ![](https://vip.123pan.cn/1681970/ymjew503t0l000d7w32x77qo7h92b969DIQ1DIr0Dcx2DIry.png)
 ```
@@ -76,7 +76,10 @@ hostfwd_add tcp::1080-:1080
 * rss相关请参考[云飞的教程](https://yunfeipt.flowus.cn/)
 ## **注意事项**
 * 关于软件退出
-只需要等进入系统后重新执行一遍端口映射即可
+只需要等进入系统后在qemu会话重新执行一遍端口映射即可
+```
+hostfwd_add tcp::3005-:3005
+```
 ### **vt关联qb的ip填写(重要)**
 这个dns有问题，记得给它开代理，不然rss连不上，只用给Alpine Term开，termux不要开代理，开了会标盒
 在termux输入ifconfig
