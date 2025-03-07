@@ -45,4 +45,4 @@ docker run -d \
 ![](https://vip.123pan.cn/1681970/ymjew503t0m000d7w32xoua6xqow1rbwDIQ1DIr0Dcx2DIry.png)
 # 最后分享我的删种规则，已经稳定使用一周
 将压缩包文件下载并解压出来，把解压出来的文件上传到/vertex/data/rule/delete即可
-https://www.123684.com/s/CC39-lNj0h
+https://www.123684.com/s/CC39-UDj0h
