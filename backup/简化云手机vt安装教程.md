@@ -71,7 +71,7 @@ hostfwd_add tcp::1080-:1080
 自行去 系统设置 >安全设置 里面修改密码
 * 导入删种规则
 在浏览器打开http://localhost:1080
-* 删种规则文件
+* [删种规则文件](https://www.123684.com/s/CC39-UDj0h)
 进入/vertex/data/rule/delete将下载解压出来的文件上传上去即可
 * rss相关请参考[云飞的教程](https://yunfeipt.flowus.cn/)
 ## **注意事项**
