@@ -39,7 +39,14 @@ docker run -d \
   --name filebrowser \
   filebrowser/filebrowser:latest
 ```
-## vt关联qb的ip填写
+## **注意事项**
+* 关于软件退出
+只需要等进入系统后在qemu会话重新执行一遍端口映射即可
+```
+hostfwd_add tcp::3005-:3005
+```
+### **vt关联qb的ip填写(重要)**
+这个dns有问题，记得给它开代理，不然rss连不上，只用给Alpine Term开，termux不要开代理，开了会标盒
 在termux输入ifconfig
 得到如图的回复，其中以10开头的ip地址(除127.0.0.1和0.0.0.0以外都可以试一试，如可能出现的172开头的IP)就是在vt中填写的qb地址
 ![](https://vip.123pan.cn/1681970/ymjew503t0m000d7w32xoua6xqow1rbwDIQ1DIr0Dcx2DIry.png)
