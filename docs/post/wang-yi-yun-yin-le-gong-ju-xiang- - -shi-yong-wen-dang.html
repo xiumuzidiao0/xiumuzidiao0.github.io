@@ -208,29 +208,26 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <h4>WEBDL=true时，点击下载按钮推送下载链接</h4>
 <h4>WEBDL=false时，不推送下载链接，只下载到服务器</h4>
 <p>WEBDL=true</p>
-<pre class="notranslate"><code class="notranslate">
-### 使用场景
-
-#### 临时下载模式 (AUTOREMOVE=true)
-- 适用于在线试听、临时下载场景
-- 自动清理避免存储空间占用
-- 适合服务器部署，节省磁盘空间
-
-#### 永久保存模式 (AUTOREMOVE=false)
-- 适用于音乐收藏、长期保存场景
-- 文件保存在 `/app/downloads` 目录
-- 不会自动删除文件
-
-### 部署配置
-
-#### 1. 启动服务
-```bash
-# 使用默认配置启动（临时模式，60分钟清理）
+<h3>使用场景</h3>
+<h4>临时下载模式 (AUTOREMOVE=true)</h4>
+<ul>
+<li>适用于在线试听、临时下载场景</li>
+<li>自动清理避免存储空间占用</li>
+<li>适合服务器部署，节省磁盘空间</li>
+</ul>
+<h4>永久保存模式 (AUTOREMOVE=false)</h4>
+<ul>
+<li>适用于音乐收藏、长期保存场景</li>
+<li>文件保存在 <code class="notranslate">/app/downloads</code> 目录</li>
+<li>不会自动删除文件</li>
+</ul>
+<h3>部署配置</h3>
+<h4>1. 启动服务</h4>
+<div class="highlight highlight-source-shell"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> 使用默认配置启动（临时模式，60分钟清理）</span>
 docker-compose up -d
 
-# 查看日志
-docker-compose logs -f
-</code></pre>
+<span class="pl-c"><span class="pl-c">#</span> 查看日志</span>
+docker-compose logs -f</pre></div>
 <h4>2. 自定义配置</h4>
 <div class="highlight highlight-source-shell"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> 修改docker-compose.yml 中的环境变量</span>
 <span class="pl-c"><span class="pl-c">#</span> 重启服务使配置生效</span>
