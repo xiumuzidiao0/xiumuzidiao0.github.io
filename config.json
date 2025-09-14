@@ -2,6 +2,6 @@
     "title":"xmzd",
     "subTitle":"xmzd的博客",
     "avatarUrl":"https://avatars.githubusercontent.com/u/107784127?v=4",
-    "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>",
+    "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script><script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>",
     "GMEEK_VERSION":"last"
 }
