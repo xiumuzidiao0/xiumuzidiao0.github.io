@@ -61,7 +61,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     font-size: 12px;
 }
 </style>
-
+<style>.markdown-alert{padding:0.5rem 1rem;margin-bottom:1rem;border-left:.25em solid var(--borderColor-default,var(--color-border-default));}.markdown-alert .markdown-alert-title {display:flex;font-weight:var(--base-text-weight-medium,500);align-items:center;line-height:1;}.markdown-alert>:first-child {margin-top:0;}.markdown-alert>:last-child {margin-bottom:0;}</style><style>.markdown-alert.markdown-alert-note {border-left-color:var(--borderColor-accent-emphasis, var(--color-accent-emphasis));background-color:var(--color-accent-subtle);}.markdown-alert.markdown-alert-note .markdown-alert-title {color: var(--fgColor-accent,var(--color-accent-fg));}</style><style>.markdown-alert.markdown-alert-tip {border-left-color:var(--borderColor-success-emphasis, var(--color-success-emphasis));background-color:var(--color-success-subtle);}.markdown-alert.markdown-alert-tip .markdown-alert-title {color: var(--fgColor-success,var(--color-success-fg));}</style><style>.markdown-alert.markdown-alert-warning {border-left-color:var(--borderColor-attention-emphasis, var(--color-attention-emphasis));background-color:var(--color-attention-subtle);}.markdown-alert.markdown-alert-warning .markdown-alert-title {color: var(--fgColor-attention,var(--color-attention-fg));}</style>
 
 
 
@@ -94,7 +94,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <div class="markdown-body" id="postBody"><h1>网易云音乐工具箱 - 使用文档</h1>
 <h2>📖 项目简介</h2>
 <p>网易云音乐工具箱是一个功能强大的网易云音乐解析工具，支持歌曲搜索、单曲解析、歌单解析、专辑解析和音乐下载等功能。项目提供了友好的Web界面和完整的API接口，支持多种音质选择，包括无损、Hi-Res等高品质音频格式。本项目是作者使用ai改的一个开源项目，发布出来只是为了方便自己，因此不会有计划地更新维护，感兴趣的请移步原项目给<a href="https://github.com/Suxiaoqinx/Netease_url">原项目</a>点点星星。</p>
-<h2>做了哪些改动</h2>
+<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p><p>做了哪些改动</p>
+</div>
 <ul>
 <li>将cookie文件挂载出来</li>
 <li>支持自动清理、不推送下载链接</li>
@@ -134,23 +135,21 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <pre class="notranslate"><code class="notranslate">MUSIC_U=你的cookie;os=pc;appver=8.9.70;
 </code></pre>
 <p>在 <code class="notranslate">cookie.txt</code> 文件中填入黑胶会员账号的Cookie：</p>
-<blockquote>
-<p>💡 <strong>获取Cookie方法</strong>：</p>
+<div class="markdown-alert markdown-alert-tip"><p class="markdown-alert-title"><svg class="octicon octicon-light-bulb mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path></svg>Tip</p><p><strong>获取Cookie方法</strong>：</p>
 <ol>
 <li>登录网易云音乐网页版</li>
 <li>按F12打开开发者工具</li>
 <li>在Network标签页找到任意请求</li>
 <li>复制请求头中的Cookie值</li>
 </ol>
-</blockquote>
-<p><g-emoji class="g-emoji" alias="warning">⚠️</g-emoji> <strong>重要提示</strong>：</p>
-<blockquote>
+</div>
+<div class="markdown-alert markdown-alert-warning"><p class="markdown-alert-title"><svg class="octicon octicon-alert mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Warning</p><p><strong>重要提示</strong>：</p>
 <ul>
 <li>必须使用黑胶会员账号的Cookie</li>
 <li>Cookie格式必须严格按照示例填写</li>
 <li>定期更新Cookie以保持有效性</li>
 </ul>
-</blockquote>
+</div>
 <h2>🐳 Docker部署</h2>
 <h3>使用Docker Compose</h3>
 <h2>⚙️ 自动清理功能配置</h2>
@@ -197,16 +196,16 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
       - <span class="pl-s"><span class="pl-pds">"</span>5000:5000<span class="pl-pds">"</span></span>
     <span class="pl-ent">restart</span>: <span class="pl-s">unless-stopped</span></pre></div>
 <h3>网易云音乐下载器环境配置</h3>
-<h4>自动删除配置</h4>
-<h4>AUTOREMOVE=true时，文件下载到/app/temp目录</h4>
-<h4>AUTOREMOVE=false时，文件下载到/app/downloads目录</h4>
+<h5>自动删除配置</h5>
+<h5>AUTOREMOVE=true时，文件下载到/app/temp目录</h5>
+<h5>AUTOREMOVE=false时，文件下载到/app/downloads目录</h5>
 <p>AUTOREMOVE=true</p>
-<h4>自动删除时间间隔（分钟）</h4>
-<h4>每隔指定时间自动删除/app/temp目录内的所有文件</h4>
+<h5>自动删除时间间隔（分钟）</h5>
+<h5>每隔指定时间自动删除/app/temp目录内的所有文件</h5>
 <p>AUTO_DELETE_TIME=60</p>
-<h4>Web下载推送配置</h4>
-<h4>WEBDL=true时，点击下载按钮推送下载链接</h4>
-<h4>WEBDL=false时，不推送下载链接，只下载到服务器</h4>
+<h5>Web下载推送配置</h5>
+<h5>WEBDL=true时，点击下载按钮推送下载链接</h5>
+<h5>WEBDL=false时，不推送下载链接，只下载到服务器</h5>
 <p>WEBDL=true</p>
 <h3>使用场景</h3>
 <h4>临时下载模式 (AUTOREMOVE=true)</h4>
@@ -443,7 +442,9 @@ docker-compose restart</pre></div>
   <span class="pl-ent">"quality"</span>: <span class="pl-s"><span class="pl-pds">"</span>lossless<span class="pl-pds">"</span></span>
 }</pre></div>
 <p><strong>响应</strong>：返回音频文件流，支持直接下载</p>
-<h2>🔧 故障排除</h2>
+<blockquote>
+<p>[!TIP]故障排除</p>
+</blockquote>
 <h3>常见问题</h3>
 <h4>1. Cookie无效</h4>
 <p><strong>问题</strong>：提示Cookie无效或过期</p>
