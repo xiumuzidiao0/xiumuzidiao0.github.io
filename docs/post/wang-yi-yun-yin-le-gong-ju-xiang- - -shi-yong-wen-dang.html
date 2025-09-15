@@ -196,25 +196,31 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
       - <span class="pl-s"><span class="pl-pds">"</span>5000:5000<span class="pl-pds">"</span></span>
     <span class="pl-ent">restart</span>: <span class="pl-s">unless-stopped</span></pre></div>
 <h3>网易云音乐下载器环境配置</h3>
-<h5>自动删除配置</h5>
-<h5>AUTOREMOVE=true时，文件下载到/app/temp目录</h5>
-<h5>AUTOREMOVE=false时，文件下载到/app/downloads目录</h5>
-<p>AUTOREMOVE=true</p>
-<h5>自动删除时间间隔（分钟）</h5>
-<h5>每隔指定时间自动删除/app/temp目录内的所有文件</h5>
-<p>AUTO_DELETE_TIME=60</p>
-<h5>Web下载推送配置</h5>
-<h5>WEBDL=true时，点击下载按钮推送下载链接</h5>
-<h5>WEBDL=false时，不推送下载链接，只下载到服务器</h5>
-<p>WEBDL=true</p>
+<p><strong>自动删除配置</strong></p>
+<ul>
+<li>AUTOREMOVE=true时，文件下载到/app/temp目录</li>
+<li>AUTOREMOVE=false时，文件下载到/app/downloads目录</li>
+<li>AUTOREMOVE=true</li>
+</ul>
+<p><strong>自动删除时间间隔（分钟）</strong><br>
+每隔指定时间自动删除/app/temp目录内的所有文件</p>
+<ul>
+<li>AUTO_DELETE_TIME=60</li>
+</ul>
+<p><strong>Web下载推送配置</strong></p>
+<ul>
+<li>WEBDL=true时，点击下载按钮推送下载链接</li>
+<li>WEBDL=false时，不推送下载链接，只下载到服务器</li>
+<li>WEBDL=true</li>
+</ul>
 <h3>使用场景</h3>
-<h4>临时下载模式 (AUTOREMOVE=true)</h4>
+<p><strong>临时下载模式 (AUTOREMOVE=true)</strong></p>
 <ul>
 <li>适用于在线试听、临时下载场景</li>
 <li>自动清理避免存储空间占用</li>
 <li>适合服务器部署，节省磁盘空间</li>
 </ul>
-<h4>永久保存模式 (AUTOREMOVE=false)</h4>
+<p><strong>永久保存模式 (AUTOREMOVE=false)</strong></p>
 <ul>
 <li>适用于音乐收藏、长期保存场景</li>
 <li>文件保存在 <code class="notranslate">/app/downloads</code> 目录</li>
